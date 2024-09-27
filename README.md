@@ -85,21 +85,17 @@ I have implemented continuous integration and deployment using **GitHub Actions*
 - **Docker**
 
 ### Steps to Run Using Docker
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/KOMPALALOKESH/Book-store-Microservices.git
    cd Book-store-Microservices
    ```
-2. Build and run all services using Docker Compose:
-   ```bash
-   git clone https://github.com/KOMPALALOKESH/Book-store-Microservices.git
-   cd Book-store-Microservices
-   ```
+2. **Build and run all services using Docker Compose:**
    ```bash
    copy code..
    docker-compose up --build
    ```
-3. Access the services:<br>
+3. **Access the services:**<br>
   API Gateway: ```http://localhost:8080``` <br>
   Catalog Service: ```http://localhost:8081```<br>
   Order Service: ```http://localhost:8082```<br>
